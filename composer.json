@@ -1,0 +1,19 @@
+{
+    "name": "edgewizz/gridtnf",
+    "description": "testing",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Edgewizz\\Gridtnf\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edgewizz\\Gridtnf\\GridtnfServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
